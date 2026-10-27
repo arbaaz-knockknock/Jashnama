@@ -57,7 +57,7 @@ NEXT_PUBLIC_WHATSAPP_NUMBER=
 
 WhatsApp uses international-format digits, including the country code. Rebuild after changing these build-time values. Until a destination is configured, the UI clearly states that enquiries are local drafts and have not been sent. The website never invents a phone number or email address from the conceptual brand board.
 
-The optional server enquiry adapter is documented in [ENQUIRY_BACKEND.md](docs/ENQUIRY_BACKEND.md). It adds validated, rate-limited handoff and duplicate protection; no live receiver is connected.
+The optional server enquiry adapter is documented in [ENQUIRY_BACKEND.md](JASHNAMA_MASTER_HANDOFF.md#archive). It adds validated, rate-limited handoff and duplicate protection; no live receiver is connected.
 
 ## Updating the site
 
@@ -83,7 +83,7 @@ Hindi currently covers key guest navigation and invitation labels, with English 
 
 - `pnpm build`: production routes compile and prerender successfully, with TypeScript verification.
 - `pnpm test`: exact event/ICS starts, absence of invented durations, independent wedding/session state, fictional fixture handling.
-- Browser checks cover public navigation, responsive layouts, enquiry receipt, gallery filters, couple/studio state and preview role switching. See `docs/VERIFICATION.md` for the final recorded results and limits.
+- Browser checks cover public navigation, responsive layouts, enquiry receipt, gallery filters, couple/studio state and preview role switching. See the verification appendix in `JASHNAMA_MASTER_HANDOFF.md` for the final recorded results and limits.
 
 ## Deployment
 
@@ -98,17 +98,17 @@ Current production site: https://jashnama.vercel.app. The project is `kkk-cy-s2-
 
 ## Handoff
 
-- [Personalised journey and WhatsApp integration boundary](docs/PERSONALIZED_EXPERIENCE.md)
+- [Personalised journey and WhatsApp integration boundary](JASHNAMA_MASTER_HANDOFF.md#archive)
 
-- [UI/UX refinement report](docs/UI_UX_REFINEMENT.md)
-- [Enquiry backend connection](docs/ENQUIRY_BACKEND.md)
+- [UI/UX refinement report](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Enquiry backend connection](JASHNAMA_MASTER_HANDOFF.md#archive)
 
-- [Brand interpretation](docs/BRAND.md)
-- [Feature status](docs/FEATURE_STATUS.md)
-- [Journeys and permissions](docs/JOURNEYS_AND_PERMISSIONS.md)
-- [Production architecture and data model](docs/PRODUCTION_HANDOFF.md)
-- [Typed proposed backend contracts](docs/backend-contracts.ts)
-- [Retention and cost inputs](docs/RETENTION_AND_COSTS.md)
-- [Launch checklist](docs/LAUNCH_CHECKLIST.md)
+- [Brand interpretation](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Feature status](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Journeys and permissions](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Production architecture and data model](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Typed proposed backend contracts](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Retention and cost inputs](JASHNAMA_MASTER_HANDOFF.md#archive)
+- [Launch checklist](JASHNAMA_MASTER_HANDOFF.md#archive)
 
 Implementation references: [Next.js installation](https://nextjs.org/docs/app/getting-started/installation), [Vercel deployment CLI](https://vercel.com/docs/cli/deploy).
