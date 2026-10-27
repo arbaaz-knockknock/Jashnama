@@ -1,0 +1,6 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { services } from '@/lib/brand';
+import { Cta } from '@/components/editorial';
+export const metadata: Metadata = {title:'Our Services'};
+export default function Services(){return <main id="main" className="inner-page"><section className="page-heading section-pad"><p className="eyebrow">WEDDING FILMS & PHOTOGRAPHY</p><h1>Your celebration.<br/><em>Thoughtfully told.</em></h1><p>From creative planning to final delivery, we agree the right coverage and deliverables around your wedding.</p></section><section className="services-list section-pad">{services.map(s=><article key={s.number}><span className="service-number">{s.number}</span><div><h2>{s.title}</h2><p>{s.description}</p><span className="quiet">{s.detail}</span></div><Link href={s.href} className="text-link">Explore</Link></article>)}</section><section className="scope-callout section-pad"><h2>Made around you.</h2><p>Dates, celebrations, crew requirements, delivery milestones and hosting terms are discussed together. We don’t assume a preset package before we understand the story.</p><Link href="/enquire" className="button button-dark">Discuss your celebrations</Link></section><Cta/></main>}

@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+.vercel/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+artifacts/
+.pnpm-store/
+# Supplied planning documents and original visual reference remain local.
+ChatGPT Image*.png
+JASHNAMA_POSITIONING_AND_EXPERIENCE.md
+JASHNAMA_WEBSITE_AND_WEB_APP_MASTER_PROMPT.md
+.vercel

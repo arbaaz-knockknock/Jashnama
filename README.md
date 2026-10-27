@@ -1,6 +1,18 @@
 # Jashnama
 
+**Start here for migration and complete planning:** [Jashnama Master Handoff](JASHNAMA_MASTER_HANDOFF.md).
+
+
 A cinematic wedding films and photography website, with connected **demonstration** workspaces for couples, guests and the studio.
+
+## GitHub repository
+
+https://github.com/arbaaz-knockknock/Jashnama — branch `main`.
+
+```sh
+git clone https://github.com/arbaaz-knockknock/Jashnama.git
+cd Jashnama
+```
 
 ## Run locally
 
@@ -82,7 +94,7 @@ vercel link --yes --project jashnama
 vercel --prod
 ```
 
-Current production site: https://jashnama.vercel.app. The project is `kkk-cy-s2-cyos/jashnama`. Vercel's Next.js detection uses `pnpm build`. Secrets, local runtime state, supplied internal briefs and the original brand board are excluded from source uploads.
+Current production site: https://jashnama.vercel.app. The project is `kkk-cy-s2-cyos/jashnama`. Vercel's Next.js detection uses `pnpm build`. Secrets, local runtime state, original source brief files and the original brand board are excluded from source uploads. The owner-authorized master handoff includes the textual planning.
 
 ## Handoff
 
